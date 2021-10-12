@@ -1,7 +1,6 @@
 body{
-    background-color: blue;
+    background-color: white;
 }
 #name {
-    position: relative;
     text-align: center;
 }
