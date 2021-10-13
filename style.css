@@ -7,6 +7,9 @@ body{
     font-family: Roboto;
 }
 #menu {
-    position: right;
+    position:absolute;
+    top:0;
+    right:0;
     font-size: 300%
+    
 }
