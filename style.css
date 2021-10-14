@@ -19,9 +19,6 @@ body{
     display: none;
     transition: all 0.5s ease-in-out;
 }
-#Testa:target {
-    display: block;
-}
 #head {
     font-family: Roboto;
 } 
