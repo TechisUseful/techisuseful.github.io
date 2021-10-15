@@ -71,6 +71,9 @@ header {
     width: 0px;
     overflow: hidden;
 }
+#navbar.active {
+    width: 400px;
+}
 #navbar ul {
     position: relative;
     display: flex;
