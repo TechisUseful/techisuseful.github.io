@@ -53,3 +53,43 @@ header {
     transform: translateY(5px);
     transition: 0.2s;
 }
+#toggle.active::before{
+    transform: translateY(0px) rotate (45deg);
+}
+#toggle.active::after{
+    transform: translateY(0px) rotate (-45deg);
+}
+#toggle.active{
+    background: #f7226a;
+}
+#navbar {
+    position: realative;
+    height: 60px;
+    right: 60px;
+    background: #fff;
+    transition: 0.5s:
+    width: 0px;
+    overflow: hidden;
+}
+#navbar ul {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+#navbar ul li {
+    list-style: none;
+}
+#navbar ul li a {
+    color: #12334e;
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0 15px;
+    letter-spacing: 2px;
+}
+#navbar ul li a:hover {
+    color: #fff;
+    background: #9051ff;
+}
