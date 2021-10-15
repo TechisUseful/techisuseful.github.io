@@ -96,7 +96,7 @@ header {
     color: #fff;
     background: #9051ff;
 }
-@meadia (max-width: 991px) {
+@media (max-width: 991px) {
  #navbar {
   position: fixed;
   bottom: 0;
