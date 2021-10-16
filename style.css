@@ -53,10 +53,10 @@ header {
     transform: translateY(5px);
     transition: 0.2s;
 }
-#toggle.active::before{
+#toggle.active:before{
     transform: translateY(0px) rotate (45deg);
 }
-#toggle.active::after{
+#toggle.active:after{
     transform: translateY(0px) rotate (-45deg);
 }
 #toggle.active{
