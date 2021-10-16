@@ -96,7 +96,7 @@ header {
     color: #fff;
     background: #9051ff;
 }
-@media (max-width: 991px) {
+/*@media (max-width: 991px) {
  #navbar {
   position: fixed;
   bottom: 0;
@@ -117,4 +117,4 @@ header {
   justify-content: center;
   align-items: center;
 }
-}
+}*/
