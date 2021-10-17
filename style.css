@@ -3,8 +3,6 @@ body{
     background: white;
 }
 header {
-    text-align: center;
-    justify-content: center;
     font-family: Roboto;
     position: fixed;
     top: 0;
