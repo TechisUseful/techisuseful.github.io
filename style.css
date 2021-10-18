@@ -4,13 +4,12 @@ body{
     font-family: Roboto;
 }
 header {
-    border:10px solid;
-    border-image:linear-gradient(45deg,red,blue) 10;
     position: left;
     top: 0;
     right: 0;
     display: flex;
     width: 100%;
+    border-radius: 40px;
     box-shadow: 0 5px 25px rgba(0,0,0,0.05);
 }
 #name {
