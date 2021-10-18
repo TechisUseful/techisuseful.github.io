@@ -4,7 +4,7 @@ body{
 }
 header {
     font-family: Roboto;
-    position: relative;
+    position: left;
     top: 0;
     right: 0;
     display: flex;
