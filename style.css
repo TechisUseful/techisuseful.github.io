@@ -4,7 +4,7 @@ body{
     font-family: Roboto;
 }
 header {
-    position: left;
+    text-align: center;
     top: 0;
     right: 0;
     display: flex;
@@ -13,7 +13,7 @@ header {
     box-shadow: 0 5px 25px rgba(0,0,0,0.05);
 }
 #name {
-    text-align: center;
+
 }
 #mimoa {
     position: relative;
