@@ -48,3 +48,6 @@ a:hover {
   background-color: transparent;
   text-decoration: none;
 }
+img {
+  border-radius: 25px;
+}
