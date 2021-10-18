@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 body{
     background: white;
+    font-family: Roboto;
 }
 header {
     font-family: Roboto;
@@ -16,7 +17,13 @@ header {
 }
 #mimoa {
     position: relative;
-    top: 50px;
+    top: 40px;
+    box-shadow: -2px -2px 8px rgba(255,255,255,1)
+         ,
+                -2px -2px 12px rgba(255,255,255,0.5),
+                inset 2px 2px 4px rgba(255,255,255,0.1)
+                    ,
+                2px 2px 8px rgba(0,0,0,0.15);
 }
 .center {
   display: block;
@@ -29,6 +36,6 @@ a {
   text-align: center;
 }
 a:link {
-  color: #0dfffb;
+  color: black;
   text-decoration: none;
 }
