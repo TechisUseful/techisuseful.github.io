@@ -52,5 +52,5 @@ img {
   border-radius: 25px;
 }
 #twitter {
-  position: bottom;
+  list-style: none;
 }
