@@ -16,7 +16,7 @@ header {
     margin: 0 auto;
     text-align: center;
 }
-#mimoa {
+.post {
     position: relative;
     top: 40px;
     border-radius: 25px;
@@ -50,4 +50,9 @@ a:hover {
 }
 img {
   border-radius: 25px;
+}
+.center-fit {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
 }
