@@ -22,25 +22,6 @@
     #head {
     font-family: Roboto;
 }
-.header {
-  position: -webkit-sticky;
-  position: sticky;
-  left: 0;
-  top: 52px;
-  z-index: 1;
-  width: 100%;
-  background-color: #f1f1f1;
-}
-.progress-container {
-  width: 100%;
-  height: 5px;
-  background: #ccc;
-}
-.progress-bar {
-  height: 5px;
-  background: #04AA6D;
-  width: 0%;
-}
     #date{
     font-family: Roboto;
     padding: 10px 30px;
@@ -114,11 +95,6 @@ ul {
 </head>
 <body>
     <h2 id="name">Tech is Useful</h2>
-    <div class="header">
-  <div class="progress-container">
-    <div class="progress-bar" id="myBar"></div>
-  </div>
-</div>
     <h1 id="head"><strong>Dashlane Review: It really makes the Internet easier</strong></h1>
     <h4 id=date>Published: 2021-10-21</h4>
     <img class="center-fit" src="/images/dashlane.png" alt="Dashlane">
@@ -165,16 +141,6 @@ ul {
       <h4 class="tip"><strong>Tip: You can get a 6-month Dashlane Free by sharing it with friends. Go settings>click Invite your friends and share with friends if your friend signs up to Dashlane you can get 6 months free dashlane premium. ( Without VPN )</strong></h4>
    <a href="https://techisuseful.github.io/" class="go">Go Home <ion-icon name="arrow-forward-circle-outline" class="arrow"></ion-icon></a>
    <a href="https://twitter.com/TechisUseful?t=X8dxInA1tDfEpH8uIj8q1g&s=08" class="follow">Follow us on Twitter <ion-icon name="logo-twitter" class="twitter"></ion-icon></a>
-   <script>
-   window.onscroll = function() {myFunction()};
-
-function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}
-   </script>
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
