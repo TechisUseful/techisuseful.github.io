@@ -203,7 +203,7 @@ ul {
       let totalHeight = document.body.scrollHeight -
         window.innerHeight;
       window.onscroll = function() {
-        let progressHeight = (window.pageYOffset /
+        let progressHeight = (window.pageY0ffset /
           totalHeight) * 100;
         progress.style.height = progressHeight + "%";
       }
