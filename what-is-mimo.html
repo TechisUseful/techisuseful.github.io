@@ -23,6 +23,26 @@
 } 
     #cont {
     font-family: Lato;
+    padding-top: 40px;
+}
+.header {
+  left: 0;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+}
+.progress-container {
+  width: 100%;
+  height: 5px;
+  background: #ccc;
+}
+.progress-bar {
+  height: 5px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, rgba(255,0,225,1) 0%, rgba(39,0,255,1) 100%);
+  width: 0%;
 }
     #date{
     font-family: Roboto;
@@ -47,27 +67,11 @@ img {
   color: #0dfffb;
   text-decoration: none;
 }
-#home {
-  position: relative;
-  top: 5px;
-  font-size: 200%;
-}
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-header {
-    border-radius: 40px;
-    font-family: Roboto;
-    position: realative;
-    width: 100%;
-    top: 0;
-    right: 0;
-    display: flex;
-    width: 100%;
-    box-shadow: 0 5px 25px rgba(0,0,0,0.05);
 }
 #name {
     margin: 0 auto;
@@ -104,14 +108,16 @@ header {
     </style>
   </head>
   <body>
-    <header>
-    <h2 id="name">Tech is Useful</h2>
-    </header>
-    <a href="https://techisuseful.github.io/" id="home"><ion-icon name="home"></ion-icon></a>
+    <div class="header">
+  <h2 id="name">Tech is Useful</h2>
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+</div>
+<div id="cont">
     <h1 id="head"><strong>Mimo Learn Coding: This is essential for anyone Learning Programing</strong></h1>
     <h4 id=date>Posted on: 2021-10-17</h4>
     <img src="/images/mimo.jpg" alt="Mimo logo" class="center">
-    <div id="cont">
     <h4>According to me Mimo is the Greatest App for Learn Programing.</strong></h4>
     <h2><strong>What is Mimo?<strong></h2>
     <h4>With Mimo You can Learn Programing. It Has a Beautiful User Interface. You can use mimo on Android and IOS. Mimo has over <strong>50 million downloads.</strong> If you are learning programming you must have mimo installed</h4>
@@ -138,11 +144,21 @@ header {
     <h4>Download for Android - <a href="https://play.google.com/store/apps/details?id=com.getmimo">Mimo For Android</a>
     <h4>Download for IOS - <a href="https://itunes.apple.com/us/app/mimo-learn-how-to-code-through/id1133960732?mt=8&at=1000lpyT">Mimo for IOS</a>
     <h4 id="tip"><strong>Tip: You can invite Friends to Mimo and Get 1 <br> week Mimo Pro For Free. To do it go Profile tab and click "Invite Friends" after that share the link  with Friends.</strong></h4>
-    </div>
    <div class="bottom">
    <a href="https://techisuseful.github.io/" class="go">Go Home <ion-icon name="arrow-forward-circle-outline" class="arrow"></ion-icon></a>
    <a href="https://twitter.com/TechisUseful?t=X8dxInA1tDfEpH8uIj8q1g&s=08" class="follow">Follow us on Twitter <ion-icon name="logo-twitter" class="twitter"></ion-icon></a>
    </div>
+   </div>
+   <script>
+   window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+   </script>
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
