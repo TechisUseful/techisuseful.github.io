@@ -52,18 +52,6 @@
   text-align: center;
   font-family: 'Nunito', sans-serif;
 }
-.date{
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 10px 30px;
-  width: 85px;
-  border-radius: 40px;
-  box-shadow: -2px -2px 8px rgba(255,255,255,1)
-         ,
-                -2px -2px 12px rgba(255,255,255,0.5),
-                inset 2px 2px 4px rgba(255,255,255,0.1)
-                    ,
-                2px 2px 8px rgba(0,0,0,0.15);
-}
 img {
   border-radius: 25px;
 }
@@ -115,6 +103,7 @@ a { font-family: Arial, Helvetica, sans-serif; }
     </style>
 </head>
 <body>
+<div id="article">
 <div class="header">
   <h2 class="name">Tech is Useful</h2>
   <span class="home"><a href="https://techisuseful.github.io/"><ion-icon name="home-outline"></ion-icon></a></span>
@@ -122,9 +111,11 @@ a { font-family: Arial, Helvetica, sans-serif; }
     <div class="progress-bar" id="myBar"></div>
   </div>
 </div>
-<div id="article">
   <h1 class="head">Dashlane Review: It really makes the Internet easier</h1>
+<section>
   <p class="date">Published <time>2021-10-21</time></p>
+  <p><span id="time"></span> minute read</p>
+</section>
   <img class="center-fit" src="/images/dashlane.png" alt="Dashlane">
   <p class="tip">Note - I am not a partner or affiliate of <br> Dashlane and have no official association with the brand.</p>
   <p>This is my review of Dashlane Password Manager.</p>
