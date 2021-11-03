@@ -52,6 +52,9 @@
   text-align: center;
   font-family: 'Nunito', sans-serif;
 }
+.down {
+  text-align: center;
+}
 img {
   border-radius: 25px;
 }
@@ -112,8 +115,8 @@ a { font-family: Arial, Helvetica, sans-serif; }
   </div>
 </div>
   <h1 class="head">Dashlane Review: It really makes the Internet easier</h1>
-<section>
-  <p class="date">Published <time>2021-10-21</time><span id="time"></span> minute read</p>
+<section class="down">
+  <p class="date">Published <time>2021-10-21</time>&#124;<span id="time"></span> minute read</p>
 </section>
   <img class="center-fit" src="/images/dashlane.png" alt="Dashlane">
   <p class="tip">Note - I am not a partner or affiliate of <br> Dashlane and have no official association with the brand.</p>
@@ -126,63 +129,4 @@ a { font-family: Arial, Helvetica, sans-serif; }
 <br>
     <li>Autofill - Dashlane will suggest your Password, Username, and Personal info stored in Dashlane.</li>
 <br>
-    <li>Password Generator - Generate secure password. (maximum password length is 40 characters)</li>
-<br>
-    <li>Password sharing</li>
-<br>
-    <li>Password health - This feature will give you a score for your passwords and show how much strong, compromised,  reused, weak passwords you have.</li>
-<br>
-    <li>Password changer - This feature can auto change Your Passwords. (not all passwords support this feature and Dashlane Premium is required )</li>
-<br>
-    <li>Dark web monitoring - You can add a maximum of 5 emails for scanning. Dashlane will find is any leaked information associated with your emails. (Dashlane Premium required )</li>
-<br>
-    <li>VPN ( Dashlane Premium required )</li>
-<br>
-    <li>Add personal info such as Phone Numbers, Emails, Websites, Names</li>
-<br>
-    <li>Add IDs</li>
-<br>
-    <li>Sync your passwords with another device ( Dashlane premium required )</li>
-    </ul>
-    <p>If Your Using Free version of Dashlane:</p>
-    <ul>
-    <li>Maximum 50 Passwords</li>
-<br>
-    <li>1 device only</li>
-<br>
-    <li>No Dashlane VPN</li>
-<br>
-    <li>No dark web monitoring</li>
-<br>
-    <li>No auto password changer feature</li>
-  </ul>
-    <p class="tip">Tip: You can get a 6-month Dashlane Free by sharing it with friends. Go settings > click Invite your friends and share with friends if your friend signs up to Dashlane you can get 6 months free dashlane premium. ( Without VPN )</p>
-<hr>
-<div class="homelink">
-  <a href="https://techisuseful.github.io/" style="display:inline-block">Visit Tech is Useful <div style="margin-bottom: 5px">&#8594;</div></a>
-</div>
-</div>
-<script>
-function readingTime() {
-  const text = document.getElementById("article").innerText;
-  const wpm = 225;
-  const words = text.trim().split(/\s+/).length;
-  const time = Math.ceil(words / wpm);
-  document.getElementById("time").innerText = time;
-}
-readingTime();
-</script>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-   <script>
-   window.onscroll = function() {myFunction()};
-
-function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}
-   </script>
-    </body>
-</html>
+    <li>Password Generator - Generate secure password
