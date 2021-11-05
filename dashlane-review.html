@@ -102,7 +102,7 @@ h3 { font-family: 'Nunito', sans-serif; }
 p { font-family: Arial, Helvetica, sans-serif; }
 ul { font-family: Arial, Helvetica, sans-serif; }
 a { font-family: Arial, Helvetica, sans-serif; }
-a{
+.sm{
   margin: 0 20px;
   width: 80px;
   height: 80px;
@@ -117,12 +117,12 @@ a{
   position: relative;
 }
 
-a:hover{
+.sm:hover{
   transform: scale(1.3);
   border-radius: 50%;
 }
 
-a i::before{
+.sm ion-icon::before{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -137,15 +137,15 @@ a i::before{
   transition: background .5s linear;
 }
 
-a:hover i::before{
+.sm:hover ion-icon::before{
   background-position: 0% 0%;
 }
 
-.fa-facebook-f::before{
+.fb::before{
   background-image: linear-gradient(135deg,#3b5998 30%,#0a3d62 50%);
 }
 
-.fa-twitter::before{
+.tw::before{
   background-image: linear-gradient(135deg,#1da1f2 30%,#0a3d62 50%);
 }
     </style>
@@ -207,9 +207,8 @@ a:hover i::before{
     <p class="tip">Tip: You can get a 6-month Dashlane Free by sharing it with friends. Go settings > click Invite your friends and share with friends if your friend signs up to Dashlane you can get 6 months free dashlane premium. ( Without VPN )</p>
 <hr>
 <p class="share">Share</p>
-
-<a href="https://www.facebook.com/sharer/sharer.php?u=https://techisuseful.github.io/dashlane-review"><i class="fab fa-facebook-f"><ion-icon name="logo-facebook" class="fb"></ion-icon></i></a>
-<a href="https://twitter.com/share?url=https://techisuseful.github.io/dashlane-review"><i class="fab fa-twitter"><ion-icon name="logo-twitter" class="tw"></ion-icon></i></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://techisuseful.github.io/dashlane-review" class="sm"><ion-icon name="logo-facebook" class="fb"></ion-icon></a>
+<a href="https://twitter.com/share?url=https://techisuseful.github.io/dashlane-review" class="sm"><ion-icon name="logo-twitter" class="tw"></ion-icon></a>
 <a  class="whatsapp" href="whatsapp://send?text=https://techisuseful.github.io/dashlane-review" data-action="share/whatsapp/share" target="_blank" class="sm"><ion-icon name="logo-whatsapp"></ion-icon></a>
 </div>
 <script>
