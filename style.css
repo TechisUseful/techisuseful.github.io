@@ -18,7 +18,7 @@ body {
   margin-right: auto;
   width: 50%;
 }
-a {
+.title {
   display: block;
   text-align: center;
   font-size: 125%;
@@ -51,4 +51,4 @@ img {
     border-radius: 25px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-h5 {color: #62646b;}
+.desc {color: #62646b;}
