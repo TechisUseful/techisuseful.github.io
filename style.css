@@ -9,7 +9,7 @@ body {
 .post2 {
     position: relative;
     top: 30px;
-    border-radius: 15px;
+    border-radius: 25px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .center {
@@ -39,7 +39,7 @@ a:hover {
   text-decoration: none;
 }
 img {
-  border-radius: 15px;
+  border-radius: 25px;
 }
 .center-fit {
   max-width: 100%;
